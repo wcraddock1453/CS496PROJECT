@@ -14,7 +14,7 @@ class Category(models.Model):
     def __str__(self):
         return self.name
 
-
+# model criteria for photo descriptions
 class Photo(models.Model):
     class Meta:
         verbose_name = 'Photo'
